@@ -178,5 +178,185 @@
     ],
     "correctAnswer": 2,
     "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "question": "Je wil de naam van een speler onthouden in je programma. Wat gebruik je?",
+    "answers": [
+      "Een loop",
+      "Een variabele",
+      "Een webbrowser",
+      "Een bestand"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 17,
+    "question": "Wat is de juiste volgorde van een webpagina bouwen?",
+    "answers": [
+      "CSS → JavaScript → HTML",
+      "JavaScript → HTML → CSS",
+      "HTML is de structuur, CSS het uiterlijk, JavaScript het gedrag",
+      "Het maakt niet uit, alles is hetzelfde"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 18,
+    "question": "Je hebt een lijst van 4 antwoorden op een vraag. Hoe sla je die op in JavaScript?",
+    "answers": [
+      "In een variabele met één waarde",
+      "In een array (lijst)",
+      "In een if-statement",
+      "In een loop"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 19,
+    "question": "Wat doet dit: if (antwoord === juistAntwoord)?",
+    "answers": [
+      "Het kopieert het antwoord",
+      "Het slaat het antwoord op",
+      "Het controleert of het gegeven antwoord gelijk is aan het juiste antwoord",
+      "Het toont het antwoord op het scherm"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 20,
+    "question": "Wat is JSON?",
+    "answers": [
+      "Een programmeertaal om websites te bouwen",
+      "Een formaat om gegevens gestructureerd op te slaan en te delen",
+      "Een type webbrowser",
+      "Een manier om afbeeldingen op te slaan"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 21,
+    "question": "Wat doet een functie in JavaScript?",
+    "answers": [
+      "Het verwijdert een element van de pagina",
+      "Het geeft de pagina een kleur",
+      "Het groepeert stukken code die je meerdere keren kan uitvoeren",
+      "Het laadt de pagina opnieuw"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 22,
+    "question": "Hoe voeg je met JavaScript tekst toe aan een HTML-element?",
+    "answers": [
+      "Met een loop",
+      "Door de innerHTML of textContent van het element aan te passen",
+      "Door een nieuw HTML-bestand aan te maken",
+      "Met een if-statement"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 23,
+    "question": "Wat is het verschil tussen een class en een id in HTML/CSS?",
+    "answers": [
+      "Een id kan je meerdere keren gebruiken, een class maar één keer",
+      "Een class kan je op meerdere elementen zetten, een id is uniek per pagina",
+      "Er is geen verschil",
+      "Een class is voor JavaScript, een id is voor CSS"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 24,
+    "question": "Wat doet document.getElementById() in JavaScript?",
+    "answers": [
+      "Het maakt een nieuw HTML-element aan",
+      "Het verwijdert een element van de pagina",
+      "Het zoekt een HTML-element op via zijn id",
+      "Het laadt een nieuw bestand in"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 25,
+    "question": "Wat gebeurt er als je op een knop klikt en er is een 'click' event listener op?",
+    "answers": [
+      "De pagina wordt opnieuw geladen",
+      "Er wordt een bestand opgeslagen",
+      "De bijhorende functie wordt uitgevoerd",
+      "Het element wordt verwijderd"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 26,
+    "question": "Je score begint op 0 en stijgt met 1 bij elk goed antwoord. Wat gebruik je om de score bij te houden?",
+    "answers": [
+      "Een array",
+      "Een variabele",
+      "Een HTML-tag",
+      "Een CSS-klasse"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "question": "Wat betekent 'score++' in JavaScript?",
+    "answers": [
+      "De score wordt verdubbeld",
+      "De score wordt gereset naar 0",
+      "De score wordt met 1 verhoogd",
+      "De score wordt verwijderd"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium"
+  },
+  {
+    "id": 28,
+    "question": "Wat is het nut van een array index?",
+    "answers": [
+      "Het geeft de kleur aan van een element",
+      "Het geeft aan op welke positie een item in de lijst staat",
+      "Het telt het aantal letters in een woord",
+      "Het verbindt twee bestanden met elkaar"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "question": "Waarom gebruik je een loop om vragen te tonen in een quiz?",
+    "answers": [
+      "Omdat een loop de pagina sneller maakt",
+      "Zodat je niet voor elke vraag apart code moet schrijven",
+      "Omdat HTML geen andere manier heeft om tekst te tonen",
+      "Omdat een loop de vragen automatisch vertaalt"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "question": "Wat doet 'console.log()' terwijl je aan het programmeren bent?",
+    "answers": [
+      "Het toont iets op de webpagina voor de gebruiker",
+      "Het slaat gegevens op in een bestand",
+      "Het toont informatie in de browser-console, handig om fouten op te sporen",
+      "Het verstuurt gegevens naar een server"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "medium"
   }
 ]
