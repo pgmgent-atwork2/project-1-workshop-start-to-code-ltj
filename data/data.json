@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "question": "Wat is een computerprogramma?",
+    "answers": [
+      "Een reeks instructies die een computer uitvoert",
+      "Een soort virus",
+      "Een onderdeel van de harde schijf",
+      "Een type beeldscherm"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "Wat doet een programmeur?",
+    "answers": [
+      "Hij repareert computers",
+      "Hij schrijft instructies zodat een computer iets kan doen",
+      "Hij ontwerpt het uiterlijk van websites",
+      "Hij installeert netwerkkabels"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "Wat is een 'bug' in een programma?",
+    "answers": [
+      "Een insect dat in de computer zit",
+      "Een extra functie",
+      "Een fout in de code die zorgt voor onverwacht gedrag",
+      "Een snelkoppeling op het bureaublad"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "Wat is een variabele?",
+    "answers": [
+      "Een knop op het toetsenbord",
+      "Een soort bestand",
+      "Een doosje in het geheugen waar je een waarde in kan bewaren",
+      "Een type printer"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "question": "Welke van deze is een echt bestaande programmeertaal?",
+    "answers": [
+      "Banaan",
+      "Python",
+      "Zondag",
+      "Blauw"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "question": "Wat is HTML?",
+    "answers": [
+      "Een soort e-mail",
+      "De taal waarmee je de structuur van een webpagina bouwt",
+      "Een muziekformaat",
+      "Een type computer"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "question": "Wat doet een webbrowser?",
+    "answers": [
+      "Hij slaat bestanden op op de harde schijf",
+      "Hij toont webpagina's op je scherm",
+      "Hij stuurt e-mails",
+      "Hij beveiligt je wifi"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "question": "Wat betekent het als een programma 'crasht'?",
+    "answers": [
+      "Het programma werkt sneller dan normaal",
+      "Het programma sluit zichzelf af door een fout",
+      "Het programma wordt geüpdatet",
+      "Het programma opent een nieuw venster"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "question": "Wat is een algoritme?",
+    "answers": [
+      "Een wiskundig toestel",
+      "Een stap-voor-stap plan om een probleem op te lossen",
+      "Een soort programmeertaal",
+      "Een beveiliging op je computer"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "question": "Wat is het verschil tussen hardware en software?",
+    "answers": [
+      "Hardware is zacht, software is hard",
+      "Hardware zijn de fysieke onderdelen, software zijn de programma's",
+      "Er is geen verschil",
+      "Hardware is gratis, software kost geld"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "question": "Wat is een 'if'-statement in gewone taal?",
+    "answers": [
+      "Een manier om iets te printen",
+      "Een vraag aan de gebruiker",
+      "Als iets waar is, doe dan dit — anders doe dat",
+      "Een manier om de computer uit te zetten"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "question": "Waarom gebruiken programmeurs commentaar in hun code?",
+    "answers": [
+      "Om de code sneller te maken",
+      "Om uitleg te geven zodat anderen (of zijzelf later) de code begrijpen",
+      "Het is verplicht in elke programmeertaal",
+      "Om fouten automatisch op te lossen"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "question": "Wat doet een loop (herhaling) in een programma?",
+    "answers": [
+      "Het verwijdert gegevens",
+      "Het voert dezelfde stappen meerdere keren uit",
+      "Het stuurt een bericht naar de server",
+      "Het maakt een back-up van bestanden"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "question": "Wat is een bestand (file) op een computer?",
+    "answers": [
+      "Een fysiek mapje in een kast",
+      "Een stuk opgeslagen informatie met een naam",
+      "Een type processor",
+      "Een verbinding met het internet"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "question": "Wat betekent 'opslaan' bij een programma of bestand?",
+    "answers": [
+      "Het bestand verwijderen van je computer",
+      "Het bestand versturen via e-mail",
+      "De huidige gegevens bewaren zodat je ze later terug kan vinden",
+      "Het bestand omzetten naar een ander formaat"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "easy"
+  }
+]
