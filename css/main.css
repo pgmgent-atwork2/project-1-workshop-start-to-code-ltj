@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.button {
+    flex: 0 0 calc(50% - 10px);
+}
