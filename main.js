@@ -1,22 +1,21 @@
 import { getEasyQuestions, getMediumQuestions } from "./controllers/questions.controller.js";
 
-function renderQuestion(questions) {
+function renderQuestion(question) {
     const $question = document.getElementById("question");
-    $question.innerHTML = "";
-
-    for (const question of questions) {
-        $question.innerHTML += 
+    $question.innerHTML = 
         `
             <h2 class="question">
                 ${question.question}
             </h2>
-        `
-    }
+        `;
 }
 
 async function initialiseQuestion() {
     const questions = await getEasyQuestions();
-    renderQuestion(questions)
+    const question = questions[0]
+
+    renderQuestion(question);
+    renderAnswer(question.answers);
 }
 
 initialiseQuestion();
@@ -34,11 +33,3 @@ function renderAnswer(answers) {
         `
     }
 }
-
-async function initialiseAnswers() {
-    const questions = await getEasyQuestions();
-    const answers = questions[0].answers
-    renderAnswer(answers)
-}
-
-initialiseAnswers();
