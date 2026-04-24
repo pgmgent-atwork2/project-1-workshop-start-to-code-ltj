@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.answers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.answers-button {
+    flex: 0 0 calc(50% - 10px);
+    list-style: none;
+}
