@@ -1,0 +1,73 @@
+:root {
+    --dark: black;
+    --light: white;
+
+    --green: rgb(117, 219, 117);
+    --red: red;
+    --blue: rgb(50, 50, 255);
+    --yellow: yellow;
+    --orange: orange;
+    --pink: rgb(235, 152, 166);
+
+    --large: 3rem;
+    --medium: 2rem;
+    --small: 1rem;
+
+    --heading-font: "Press Start 2P", system-ui;
+    --text-font: "Fira Code", monospace;
+    --font-weight: 400;
+    --font-style: normal;
+
+    --border-large: 5px;
+    --border-medium: 2.5px;
+    --border-small: 1px;
+}
+
+body {
+    display: flex;
+    background-color: var(--dark);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+heading h1 {
+    font-family: var(--heading-font);
+    color: var(--light);
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: var(--small)
+}
+
+.links {
+    display: flex;
+    gap: var(--large);
+}
+
+.links a {
+    border: var(--border-medium) solid var(--light);
+    padding: var(--medium) var(--large);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--text-font);
+}
+
+#tutorial {
+    color: var(--green)
+}
+
+#tutorial:hover {
+    color: var(--blue);
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+#game {
+    color: var(--red);
+}
+
+#game:hover {
+    color: var(--pink);
+    transform: scale(1.05);
+    transition: 0.5s;
+}
