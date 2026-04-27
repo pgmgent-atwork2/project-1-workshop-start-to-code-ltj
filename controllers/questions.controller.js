@@ -11,8 +11,8 @@ async function getRandomQuestion(array, count) {
 export async function getEasyQuestions() {
     const questions = await getAllQuestions();
     const easyQuestions = questions.filter(question => question.difficulty === "easy");
-    
-    return getRandomQuestion(easyQuestions, 5);
+
+    return getRandomQuestion(easyQuestions, 1);
 
 }
 
@@ -20,5 +20,32 @@ export async function getMediumQuestions() {
     const questions = await getAllQuestions();
     const mediumQuestions = questions.filter(question => question.difficulty === "medium");
 
-    return getRandomQuestion(mediumQuestions, 5);
+    return getRandomQuestion(mediumQuestions, 1);
+}
+
+function showAnswers(question) {
+    const answersContainer = document.getElementById("answers-buttons");
+    answersContainer.innerHTML = "";
+
+    question.answers.forEach((answer, index) => {
+        const li = document.createElement("li");
+        li.textContent = answer;
+
+        li.addEventListener("click", () => {
+            // alles disablen na klik
+            const allAnswers = answersContainer.querySelectorAll("li");
+            allAnswers.forEach(el => el.style.pointerEvents = "none");
+
+            if (index === question.correctAnswer) {
+                li.classList.add("correct");
+            } else {
+                li.classList.add("wrong");
+
+                // juiste antwoord ook tonen
+                allAnswers[question.correctAnswer].classList.add("correct");
+            }
+        });
+
+        answersContainer.appendChild(li);
+    });
 }
