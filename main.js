@@ -1,5 +1,5 @@
 // Importeer beide functies uit de controller om toegang te krijgen tot de vragen in het JSON bestand (onze database)
-import { getEasyQuestions, getMediumQuestions } from "./controllers/questions.controller.js";
+import { getEasyQuestions, getMediumQuestions, getHardQuestions } from "./controllers/questions.controller.js";
 
 let currentQuestionIndex = 0;
 let questions = [];
@@ -26,10 +26,13 @@ async function initialiseQuestion() {
     const difficulty = urlParams.get("difficulty") || "easy";
 
     // Afhankelijk van de moeilijkheidsgraad, haal de juiste vragen op
-    questions = difficulty === "medium"
-        ? await getMediumQuestions()
-        : await getEasyQuestions();
-    
+    if (difficulty === "medium") {
+        questions = await getMediumQuestions();
+    } else if (difficulty === "hard") {
+        questions = await getHardQuestions();
+    } else {
+        questions = await getEasyQuestions();
+    }
     // Neemt de eerste vraag uit de lijst (index)
     const question = questions[0]
 

@@ -12,7 +12,7 @@ export async function getEasyQuestions() {
     const questions = await getAllQuestions();
     const easyQuestions = questions.filter(question => question.difficulty === "easy");
 
-    return getRandomQuestion(easyQuestions, 1);
+    return getRandomQuestion(easyQuestions, 5);
 
 }
 
@@ -20,7 +20,14 @@ export async function getMediumQuestions() {
     const questions = await getAllQuestions();
     const mediumQuestions = questions.filter(question => question.difficulty === "medium");
 
-    return getRandomQuestion(mediumQuestions, 1);
+    return getRandomQuestion(mediumQuestions, 5);
+}
+
+export async function getHardQuestions() {
+    const questions = await getAllQuestions();
+    const hardQuestions = questions.filter(question => question.difficulty === "hard");
+
+    return getRandomQuestion(hardQuestions, 5);
 }
 
 function showAnswers(question) {

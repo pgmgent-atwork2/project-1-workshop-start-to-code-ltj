@@ -358,5 +358,185 @@
     ],
     "correctAnswer": 2,
     "difficulty": "medium"
+  },
+  {
+    "id": 31,
+    "question": "Wat is het verschil tussen '==' en '===' in JavaScript?",
+    "answers": [
+      "'==' vergelijkt alleen de waarde, '===' vergelijkt waarde én type",
+      "'===' vergelijkt alleen de waarde",
+      "Er is geen verschil",
+      "'==' is nieuwer dan '==='"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 32,
+    "question": "Wat doet 'addEventListener' in JavaScript?",
+    "answers": [
+      "Het verwijdert een HTML-element",
+      "Het voegt een gebeurtenis toe waarop gereageerd wordt",
+      "Het slaat data op",
+      "Het maakt een nieuwe functie aan"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 33,
+    "question": "Wat is 'scope' van een variabele?",
+    "answers": [
+      "De grootte van de variabele in bytes",
+      "Waar in de code de variabele toegankelijk is",
+      "Hoe snel de variabele verandert",
+      "Hoeveel waarden een variabele kan opslaan"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 34,
+    "question": "Wat gebeurt er als je een variabele gebruikt die niet gedeclareerd is?",
+    "answers": [
+      "De browser negeert het",
+      "De code stopt met een fout",
+      "De variabele wordt automatisch 0",
+      "De variabele wordt een string"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 35,
+    "question": "Wat doet de methode 'push()' op een array?",
+    "answers": [
+      "Het verwijdert het eerste element",
+      "Het voegt een element toe aan het einde",
+      "Het sorteert de array",
+      "Het maakt de array leeg"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 36,
+    "question": "Wat is een callback functie?",
+    "answers": [
+      "Een functie die zichzelf verwijdert",
+      "Een functie die als argument wordt meegegeven aan een andere functie",
+      "Een functie zonder naam",
+      "Een functie die alleen één keer kan draaien"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 37,
+    "question": "Wat doet 'preventDefault()' bij een event?",
+    "answers": [
+      "Het verwijdert het event",
+      "Het voorkomt het standaardgedrag van een element",
+      "Het herstart de pagina",
+      "Het maakt een nieuw event aan"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 38,
+    "question": "Wat betekent 'NaN' in JavaScript?",
+    "answers": [
+      "No assigned name",
+      "Not a number",
+      "New array number",
+      "Null and none"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 39,
+    "question": "Wat doet 'map()' op een array?",
+    "answers": [
+      "Het filtert elementen uit de array",
+      "Het voert een functie uit op elk element en geeft een nieuwe array terug",
+      "Het sorteert de array",
+      "Het verwijdert duplicaten"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 40,
+    "question": "Wat is het verschil tussen 'let' en 'const'?",
+    "answers": [
+      "'let' kan niet veranderd worden, 'const' wel",
+      "'const' kan niet opnieuw toegewezen worden na declaratie",
+      "Er is geen verschil",
+      "'let' is ouder dan 'const'"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 41,
+    "question": "Wat doet 'filter()' op een array?",
+    "answers": [
+      "Het verandert alle elementen",
+      "Het maakt een nieuwe array met alleen elementen die aan een voorwaarde voldoen",
+      "Het sorteert de array",
+      "Het voegt elementen toe"
+    ],
+    "correctAnswer": 1,
+    "difficulty": "hard"
+  },
+  {
+    "id": 42,
+    "question": "Wat is het resultaat van: typeof null?",
+    "answers": [
+      "'null'",
+      "'undefined'",
+      "'object'",
+      "'number'"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 43,
+    "question": "Wat doet 'return' in een functie?",
+    "answers": [
+      "Het stopt de functie en geeft een waarde terug",
+      "Het herstart de functie",
+      "Het print iets op het scherm",
+      "Het slaat data op"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard"
+  },
+  {
+    "id": 44,
+    "question": "Wat gebeurt er als een functie geen return heeft?",
+    "answers": [
+      "De functie crasht",
+      "De functie geeft automatisch 0 terug",
+      "De functie geeft 'undefined' terug",
+      "De functie blijft oneindig lopen"
+    ],
+    "correctAnswer": 2,
+    "difficulty": "hard"
+  },
+  {
+    "id": 45,
+    "question": "Wat doet 'querySelector()' in JavaScript?",
+    "answers": [
+      "Het selecteert het eerste element dat overeenkomt met een CSS-selector",
+      "Het selecteert alle elementen",
+      "Het maakt een nieuw element",
+      "Het verwijdert een element"
+    ],
+    "correctAnswer": 0,
+    "difficulty": "hard"
   }
 ]
