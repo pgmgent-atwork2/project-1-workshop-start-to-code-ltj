@@ -98,25 +98,29 @@ main {
 
 .choose {
     display: flex;
+    flex-direction: column;
     margin-left: 38vw;
     margin-top: var(--small);
+    gap: 1rem;
+    position: absolute;
 }
 
 .choose p {
-    position: absolute;
     font-family: var(--heading-font);
     text-transform: uppercase;
-    max-width: 12rem;
+    max-width: 11rem;
     text-align: center;
-    order: 2;
+    margin-left: var(--small);
+    margin-top: -5vh;
+    font-size: smaller;
 }
 
 .choose img {
-    width: 20vw;
+    width: 18vw;
     height: auto;
     transform: rotate(180deg);
     margin-top: var(--medium);
-    order: 1;
+    margin-top: -7vh;
 }
 
 .one {
