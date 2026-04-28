@@ -39,6 +39,10 @@ heading h1 {
     padding-bottom: var(--small)
 }
 
+main {
+    position: relative;
+}
+
 .links {
     display: flex;
     gap: var(--large);
@@ -70,4 +74,46 @@ heading h1 {
     color: var(--pink);
     transform: scale(1.05);
     transition: 0.5s;
+}
+
+.choose {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    margin-left: 30vw;
+    margin-top: var(--small);
+}
+
+.choose p {
+    position: absolute;
+    font-family: var(--heading-font);
+    text-transform: uppercase;
+    max-width: 12rem;
+    text-align: center;
+}
+
+.choose img {
+    width: 15vw;
+    height: auto;
+    transform: rotate(180deg);
+    margin-top: var(--medium);
+}
+
+.one {
+    color: var(--orange);
+    padding-right: var(--small);
+}
+
+.two {
+    color: var(--green);
+    padding-right: var(--small);
+}
+
+.three {
+    color: var(--blue);
+    padding-right: var(--small);
+}
+
+.four {
+    color: var(--yellow);
 }
