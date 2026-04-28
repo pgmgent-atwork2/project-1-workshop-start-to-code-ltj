@@ -1,4 +1,4 @@
-// Importeer beide functies uit de controller om toegang te krijgen tot de vragen in het JSON bestand (onze database)
+// Importeer functies uit de controller om toegang te krijgen tot de vragen in het JSON bestand (onze database)
 import { getEasyQuestions, getMediumQuestions, getHardQuestions } from "./controllers/questions.controller.js";
 
 // Houdt bij welke vraag we momenteel tonen
