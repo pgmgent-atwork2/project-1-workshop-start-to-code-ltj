@@ -32,7 +32,6 @@ function showAnswers(question) {
         li.textContent = answer;
 
         li.addEventListener("click", () => {
-            // alles disablen na klik
             const allAnswers = answersContainer.querySelectorAll("li");
             allAnswers.forEach(el => el.style.pointerEvents = "none");
 
@@ -41,7 +40,6 @@ function showAnswers(question) {
             } else {
                 li.classList.add("wrong");
 
-                // juiste antwoord ook tonen
                 allAnswers[question.correctAnswer].classList.add("correct");
             }
         });
