@@ -94,3 +94,36 @@ footer {
     text-decoration: none;
     text-decoration-color: aquamarine;
 }
+
+#importjs {
+    display: flex;
+    justify-content: right;
+    gap: var(--medium);
+}
+
+#importjs img {
+    max-width: 45%;
+    height: auto;
+}
+
+#getjs {
+    display: flex;
+    justify-content: center;
+    gap: var(--medium);
+}
+
+#getjs img {
+    max-width: 45%;
+    height: auto;
+}
+
+#answerjs {
+    display: flex;
+    justify-content: center;
+    gap: var(--medium);
+}
+
+#answerjs img {
+    max-width: 45%;
+    height: auto;
+}
