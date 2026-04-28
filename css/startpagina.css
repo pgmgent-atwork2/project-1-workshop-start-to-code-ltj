@@ -106,7 +106,7 @@ heading h1 {
 .choose {
     display: flex;
     flex-direction: column;
-    margin-left: 30vw;
+
     margin-top: var(--small);
     gap: 1rem;
     position: absolute;
