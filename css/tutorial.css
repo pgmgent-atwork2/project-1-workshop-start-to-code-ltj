@@ -90,7 +90,7 @@ footer {
     font-size: 14px;
 }
 
-.inhoudsopgave ul{
+.inhoudsopgave ul {
     text-decoration: none;
     text-decoration-color: aquamarine;
 }
@@ -133,11 +133,11 @@ footer {
     justify-content: center;
     align-items: center;
     gap: var(--medium);
-    min-height: 100vh; /* vult het scherm */
+    min-height: 100vh;
+    /* vult het scherm */
 }
 
 #jsondata img {
     max-width: 45%;
     height: auto;
 }
-

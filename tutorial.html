@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
     <title>Meerkeuze Quiz Tutorial - Opdracht ATWORK2</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/tutorial.css">
@@ -13,12 +17,12 @@
 
     <header>
         <nav>
-    <main>
-        <div class="links">
-            <a href="index.html" id="tutorial">Home</a>
-            <a href="game.html" id="game">Game</a>
-        </div>
-    </main>
+            <main>
+                <div class="links">
+                    <a href="index.html" id="tutorial">Home</a>
+                    <a href="game.html" id="game">Game</a>
+                </div>
+            </main>
         </nav>
     </header>
 
@@ -47,7 +51,8 @@
             <h2>Introductie</h2>
             <p>
                 Welkom bij ons project! In deze tutorial leggen we stap voor stap uit hoe we een quiz bouwen met HTML,
-                CSS en JavaScript. Zelfs als je nog nooit hebt geprogrammeerd, kan je dit leren. Wie weet wordt je aan de hand van deze tutorial en quiz een top programmeur.
+                CSS en JavaScript. Zelfs als je nog nooit hebt geprogrammeerd, kan je dit leren. Wie weet wordt je aan
+                de hand van deze tutorial en quiz een top programmeur.
             </p>
         </section>
 
@@ -71,14 +76,18 @@
         <section id="vscode">
             <h2>Stap 0: Visual Studio Code installeren</h2>
             <p>
-                We gebruiken <strong>Visual Studio Code (VS Code)</strong> als code-editor. Een code-editor is een programma waarin je code schrijft en bestanden beheert.
+                We gebruiken <strong>Visual Studio Code (VS Code)</strong> als code-editor. Een code-editor is een
+                programma waarin je code schrijft en bestanden beheert.
             </p>
             <p>
-                VS Code kan je gratis downloaden via de officiële website van Microsoft. Na installatie kan je gemakkelijk HTML, CSS en JavaScript bestanden maken en bewerken.
+                VS Code kan je gratis downloaden via de officiële website van Microsoft. Na installatie kan je
+                gemakkelijk HTML, CSS en JavaScript bestanden maken en bewerken.
             </p>
             <ul>
-                <li>Ga naar de website van <strong> <a href="https://code.visualstudio.com/">Visual Studio Code</a></strong></li>
-                <li>Download de juiste versie voor jouw computer (Windows, Mac of Linux) <a href="https://code.visualstudio.com/thank-you?dv=win64user">Versies</a></li>
+                <li>Ga naar de website van <strong> <a href="https://code.visualstudio.com/">Visual Studio
+                            Code</a></strong></li>
+                <li>Download de juiste versie voor jouw computer (Windows, Mac of Linux) <a
+                        href="https://code.visualstudio.com/thank-you?dv=win64user">Versies</a></li>
                 <li>Installeer het programma</li>
             </ul>
         </section>
@@ -97,16 +106,19 @@
                 <li>Maak een bestand aan met de naam <strong>index.html</strong></li>
             </ul>
             <p>
-                HTML staat voor HyperText Markup Language en is de standaard opmaaktaal die de structuur en inhoud van webpagina's bepaalt. 
-                Het gebruikt 'tags' om elementen zoals tekst, afbeeldingen en koppen te definiëren, die browsers omzetten in een visuele pagina. 
-                Het is geen programmeertaal, maar een structuurtaal. 
+                HTML staat voor HyperText Markup Language en is de standaard opmaaktaal die de structuur en inhoud van
+                webpagina's bepaalt.
+                Het gebruikt 'tags' om elementen zoals tekst, afbeeldingen en koppen te definiëren, die browsers
+                omzetten in een visuele pagina.
+                Het is geen programmeertaal, maar een structuurtaal.
             </p>
         </section>
 
         <section id="html">
             <h2>Stap 2: HTML</h2>
             <p>
-                HTML is de structuur van onze quiz. Het zorgt ervoor dat we tekst, knoppen en vragen op de pagina kunnen zetten.
+                HTML is de structuur van onze quiz. Het zorgt ervoor dat we tekst, knoppen en vragen op de pagina kunnen
+                zetten.
                 Zonder HTML zou er niets zichtbaar zijn.
             </p>
         </section>
@@ -114,7 +126,8 @@
         <section id="css">
             <h2>Stap 3: CSS</h2>
             <p>
-                CSS staat voor Cascading Style Sheets en is de codeertaal die de lay-out en vormgeving van een website bepaalt. 
+                CSS staat voor Cascading Style Sheets en is de codeertaal die de lay-out en vormgeving van een website
+                bepaalt.
                 Het is de visuele 'stijl' van een pagina.
                 Met css kunnen we dus volgende zaken aanpassen:
             </p>
@@ -131,37 +144,41 @@
         <section id="javascript">
             <h2>Stap 4: JavaScript</h2>
             <p>
-                JavaScript is een veelzijdige, lichtgewicht scripttaal die wordt gebruikt om webpagina's interactief en dynamisch te maken. 
-                Naast HTML en CSS is het een kerntechnologie van het moderne web, waarmee gedrag zoals animaties, formuliervalidatie en inhoudsupdates worden aangestuurd. 
-                Het is een prototype-gebaseerde, dynamische taal die zowel in browsers als via Node.js op servers draait.
+                JavaScript is een veelzijdige, lichtgewicht scripttaal die wordt gebruikt om webpagina's interactief en
+                dynamisch te maken.
+                Naast HTML en CSS is het een kerntechnologie van het moderne web, waarmee gedrag zoals animaties,
+                formuliervalidatie en inhoudsupdates worden aangestuurd.
+                Het is een prototype-gebaseerde, dynamische taal die zowel in browsers als via Node.js op servers
+                draait.
                 Zonder JavaScript zou de quiz niet reageren op klikken of antwoorden.
             </p>
-            
+
         </section>
 
         <section id="import">
             <h2>JavaScript importeren</h2>
-            <p>Deze code importeert functies om vragen op te halen, houdt bij welke vraag je zit en wat je score is, 
+            <p>Deze code importeert functies om vragen op te halen, houdt bij welke vraag je zit en wat je score is,
                 en toont vervolgens een vraag in de browser door de HTML van een element te updaten.
             </p>
-         <img src="images/code.png (importjs.png" alt="importjs"> 
+            <img src="images/code.png (importjs.png" alt="importjs">
         </section>
 
         <section id="get">
             <h2>JavaScript vragen ophalen</h2>
-            <p>Deze functie haalt de moeilijkheidsgraad uit de URL, laadt de juiste vragen (easy of medium of hard) en toont de eerste vraag in de browser, 
+            <p>Deze functie haalt de moeilijkheidsgraad uit de URL, laadt de juiste vragen (easy of medium of hard) en
+                toont de eerste vraag in de browser,
                 pakt de eerste vraag en toont die met de bijbehorende antwoorden in de browser.
             </p>
-         <img src="images/code.png (opvraging vragenjs.png" alt="opvragingjs">   
+            <img src="images/code.png (opvraging vragenjs.png" alt="opvragingjs">
         </section>
 
         <section id="answer">
             <h2>Controle antwoorden</h2>
-            <p>Deze functie controleert of het gekozen antwoord juist is, geeft feedback (juist/fout), 
-                verhoogt de score bij een goed antwoord en gaat door naar de volgende vraag 
+            <p>Deze functie controleert of het gekozen antwoord juist is, geeft feedback (juist/fout),
+                verhoogt de score bij een goed antwoord en gaat door naar de volgende vraag
                 of toont de eindscore als alles klaar is.
             </p>
-         <img src="images/code.png (answercheckjs.png" alt="answercheckjs">   
+            <img src="images/code.png (answercheckjs.png" alt="answercheckjs">
         </section>
 
         <section id="vragen">
