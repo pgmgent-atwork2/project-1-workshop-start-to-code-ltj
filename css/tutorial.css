@@ -134,10 +134,16 @@ footer {
     align-items: center;
     gap: var(--medium);
     min-height: 100vh;
-    /* vult het scherm */
 }
 
 #jsondata img {
     max-width: 45%;
+    height: auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
     height: auto;
 }
