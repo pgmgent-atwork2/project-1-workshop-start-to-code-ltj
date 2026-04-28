@@ -5,13 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meerkeuze Quiz Tutorial - Opdracht ATWORK2</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/tutorial.css">
 </head>
 
 <body>
 
     <header>
         <nav>
-            Home | Tutorial | Quiz
+    <main>
+        <div class="links">
+            <a href="index.html" id="tutorial">Home</a>
+            <a href="game.html" id="game">Game</a>
+        </div>
+    </main>
         </nav>
     </header>
 
@@ -19,30 +26,32 @@
 
         <h1>Meerkeuze Quiz Tutorial - Hoe maken we ons spel?</h1>
 
-        <section>
+        <section id="inhoudsopgave">
             <h2>Inhoudsopgave</h2>
             <ul>
-                <li>Introductie</li>
-                <li>Wat is een quiz?</li>
-                <li>Wat heb je nodig?</li>
-                <li>Stap 1: HTML</li>
-                <li>Stap 2: CSS</li>
-                <li>Stap 3: js</li>
-                <li>Stap 4 Onze vragen (JSON data)</li>
-                <li>Stap 5 Hoe werkt het spel?</li>
-                <li>Stap 6: Projectstructuur</li>
+                <li><a href="#intro">Introductie</a></li>
+                <li><a href="#quiz">Wat is een quiz?</a></li>
+                <li><a href="#benodigheden">Wat heb je nodig?</a></li>
+                <li><a href="#vscode">Stap 0: Visual Studio Code installeren</a></li>
+                <li><a href="#project">Stap 1: Project aanmaken en HTML bestand</a></li>
+                <li><a href="#html">Stap 2: HTML</a></li>
+                <li><a href="#css">Stap 3: CSS</a></li>
+                <li><a href="#javascript">Stap 4: JavaScript</a></li>
+                <li><a href="#vragen">Stap 5: Onze vragen (JSON data)</a></li>
+                <li><a href="#werking">Stap 6: Hoe werkt het spel?</a></li>
+                <li><a href="#structuur">Stap 7: Projectstructuur</a></li>
             </ul>
         </section>
 
-        <section>
+        <section id="intro">
             <h2>Introductie</h2>
             <p>
                 Welkom bij ons project! In deze tutorial leggen we stap voor stap uit hoe we een quiz bouwen met HTML,
-                CSS en JavaScript. Zelfs als je nog nooit hebt geprogrammeerd, kan je dit leren.
+                CSS en JavaScript. Zelfs als je nog nooit hebt geprogrammeerd, kan je dit leren. Wie weet wordt je aan de hand van deze tutorial en quiz een top programmeur.
             </p>
         </section>
 
-        <section>
+        <section id="quiz">
             <h2>Wat is een quiz?</h2>
             <p>
                 Een quiz is een spel waarbij je vragen moet beantwoorden. Elke vraag heeft meerdere antwoorden,
@@ -50,48 +59,86 @@
             </p>
         </section>
 
-        <section>
+        <section id="benodigheden">
             <h2>Wat heb je nodig?</h2>
             <ul>
                 <li>Een computer</li>
                 <li>Een browser (Chrome, Edge, Firefox)</li>
-                <li>Een code-editor (bijvoorbeeld Visual Studio Code)</li>
                 <li>Een beetje geduld</li>
             </ul>
         </section>
 
-        <section>
-            <h2>Stap 1: HTML</h2>
+        <section id="vscode">
+            <h2>Stap 0: Visual Studio Code installeren</h2>
+            <p>
+                We gebruiken <strong>Visual Studio Code (VS Code)</strong> als code-editor. Een code-editor is een programma waarin je code schrijft en bestanden beheert.
+            </p>
+            <p>
+                VS Code kan je gratis downloaden via de officiële website van Microsoft. Na installatie kan je gemakkelijk HTML, CSS en JavaScript bestanden maken en bewerken.
+            </p>
+            <ul>
+                <li>Ga naar de website van <strong></strong>Visual Studio Code</li>
+                <li>Download de juiste versie voor jouw computer (Windows, Mac of Linux)</li>
+                <li>Installeer het programma</li>
+            </ul>
+        </section>
+
+        <section id="project">
+            <h2>Stap 1: Project aanmaken en HTML bestand</h2>
+            <p>
+                Nadat je VS Code hebt geopend, maak je een nieuwe map voor je project.
+            </p>
+            <p>
+                Daarna maak je je eerste bestand:
+            </p>
+            <ul>
+                <li>Rechterklik in de map in VS Code</li>
+                <li>Klik op <em>New File</em></li>
+                <li>Maak een bestand aan met de naam <strong>index.html</strong></li>
+            </ul>
+            <p>
+                HTML staat voor HyperText Markup Language en is de standaard opmaaktaal die de structuur en inhoud van webpagina's bepaalt. 
+                Het gebruikt 'tags' om elementen zoals tekst, afbeeldingen en koppen te definiëren, die browsers omzetten in een visuele pagina. 
+                Het is geen programmeertaal, maar een structuurtaal. 
+            </p>
+        </section>
+
+        <section id="html">
+            <h2>Stap 2: HTML</h2>
             <p>
                 HTML is de structuur van onze quiz. Het zorgt ervoor dat we tekst, knoppen en vragen op de pagina kunnen zetten.
                 Zonder HTML zou er niets zichtbaar zijn.
             </p>
         </section>
 
-        <section>
-            <h2>Stap 2: CSS</h2>
+        <section id="css">
+            <h2>Stap 3: CSS</h2>
             <p>
-                CSS (Cascading Style Sheets) is de taal waarmee je de stijl en opmaak van een website bepaalt.
-                Met CSS kan je bijvoorbeeld:
+                CSS staat voor Cascading Style Sheets en is de codeertaal die de lay-out en vormgeving van een website bepaalt. 
+                Het is de visuele 'stijl' van een pagina.
+                Met css kunnen we dus volgende zaken aanpassen:
+            </p>
+            <ul>
+                <li>kleuren aanpassen</li>
+                <li>lettertypes kiezen</li>
+                <li>de grootte van tekst veranderen</li>
+                <li>elementen positioneren op de pagina</li>
+                <li>je website mooier en overzichtelijker maken</li>
+            </ul>
+        </section>
 
-kleuren aanpassen
-lettertypes kiezen
-de grootte van tekst veranderen
-elementen op de pagina plaatsen (links, midden, rechts)
-je website mooier en overzichtelijker maken
+        <section id="javascript">
+            <h2>Stap 4: JavaScript</h2>
+            <p>
+                JavaScript is een veelzijdige, lichtgewicht scripttaal die wordt gebruikt om webpagina's interactief en dynamisch te maken. 
+                Naast HTML en CSS is het een kerntechnologie van het moderne web, waarmee gedrag zoals animaties, formuliervalidatie en inhoudsupdates worden aangestuurd. 
+                Het is een prototype-gebaseerde, dynamische taal die zowel in browsers als via Node.js op servers draait.
+                Zonder JavaScript zou de quiz niet reageren op klikken of antwoorden.
             </p>
         </section>
 
-        </section>
-            <h2>Stap 3: js</h2>
-            <p>
-                HTML is de structuur van onze quiz. Het zorgt ervoor dat we tekst, knoppen en vragen op de pagina kunnen zetten.
-                Zonder HTML zou er niets zichtbaar zijn.
-            </p>
-        </section>
-
-        <section>
-            <h2>Stap 4: Onze vragen (JSON data)</h2>
+        <section id="vragen">
+            <h2>Stap 5: Onze vragen (JSON data)</h2>
             <p>
                 We gebruiken JSON om onze vragen op te slaan. Elke vraag bevat:
             </p>
@@ -105,8 +152,8 @@ je website mooier en overzichtelijker maken
             </p>
         </section>
 
-        <section>
-            <h2>Stap 5: Hoe werkt het spel?</h2>
+        <section id="werking">
+            <h2>Stap 6: Hoe werkt het spel?</h2>
             <p>
                 JavaScript zorgt ervoor dat de quiz werkt. Het doet het volgende:
             </p>
@@ -118,29 +165,29 @@ je website mooier en overzichtelijker maken
             </ul>
         </section>
 
-        <section>
-            <h2>Stap 6: Projectstructuur</h2>
+        <section id="structuur">
+            <h2>Stap 7: Projectstructuur</h2>
             <p>Ons project is opgebouwd in verschillende bestanden:</p>
             <pre>
 bestandsnaam/
 │
 ├── controllers
-    └── questions.controller.js
+│   └── questions.controller.js
 ├── CSS
-    └── main.css
-    └── reset.css
+│   └── main.css
+│   └── reset.css
 ├── data
-    └──  data.json
-├──game.html
-├──index.html
-├──main.js
-├──readme.md
-├──tutorial.html
+│   └── data.json
+├── game.html
+├── index.html
+├── main.js
+├── readme.md
+├── tutorial.html
             </pre>
         </section>
 
         <footer>
-            <p>Tetorial Quiz Project - Gemaakt door onze groep (Lotte, Thijs, Jean-Pascal)</p>
+            <p>Tutorial Quiz Project - Gemaakt door onze groep (Lotte, Thijs, Jean-Pascal)</p>
         </footer>
 
     </main>
