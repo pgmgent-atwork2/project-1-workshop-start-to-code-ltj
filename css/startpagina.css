@@ -71,16 +71,34 @@ main {
 }
 
 #game:hover {
+    color: var(--blue);
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+#game-medium {
     color: var(--pink);
+}
+
+#game-medium:hover {
+    color: var(--red);
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+#game-hard {
+    color: var(--orange);
+}
+
+#game-hard:hover {
+    color: var(--yellow);
     transform: scale(1.05);
     transition: 0.5s;
 }
 
 .choose {
     display: flex;
-    justify-content: right;
-    flex-direction: column;
-    margin-left: 30vw;
+    margin-left: 38vw;
     margin-top: var(--small);
 }
 
@@ -90,13 +108,15 @@ main {
     text-transform: uppercase;
     max-width: 12rem;
     text-align: center;
+    order: 2;
 }
 
 .choose img {
-    width: 15vw;
+    width: 20vw;
     height: auto;
     transform: rotate(180deg);
     margin-top: var(--medium);
+    order: 1;
 }
 
 .one {
