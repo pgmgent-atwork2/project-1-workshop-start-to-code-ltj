@@ -1,90 +1,77 @@
 :root {
     --dark: black;
     --light: white;
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 18874d9712bd2a46658db1832229c3763bb7f30f
     --green: rgb(117, 219, 117);
     --red: red;
     --blue: rgb(50, 50, 255);
     --yellow: yellow;
     --orange: orange;
     --pink: rgb(235, 152, 166);
-<<<<<<< HEAD
 
     --large: 3rem;
     --medium: 2rem;
     --small: 1rem;
 
-=======
- 
-    --large: 3rem;
-    --medium: 2rem;
-    --small: 1rem;
- 
->>>>>>> 18874d9712bd2a46658db1832229c3763bb7f30f
     --heading-font: "Press Start 2P", system-ui;
     --text-font: "Fira Code", monospace;
     --font-weight: 400;
     --font-style: normal;
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 18874d9712bd2a46658db1832229c3763bb7f30f
     --border-large: 5px;
     --border-medium: 2.5px;
     --border-small: 1px;
 }
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 18874d9712bd2a46658db1832229c3763bb7f30f
 body {
     display: flex;
+    flex-direction: column;
     background-color: var(--dark);
     color: var(--light);
     justify-content: center;
     align-items: center;
     margin: var(--small);
-<<<<<<< HEAD
+}
+
+.navigation {
+    display: flex;
+    border: var(--border-small) solid var(--light);
+    padding: .5rem;
+    margin-left: 53rem;
+    margin-bottom: var(--small);
+    border-radius: 20px;
+    font-family: var(--text-font);
+    transition: 0.3s;
+}
+
+.navigation a {
+    color: var(--red);
+    text-decoration: none;
+}
+
+.navigation:hover {
+    background-color: var(--light);
+    color: var(--red);
 }
 
 .questions {
     font-family: var(--heading-font);
     text-align: center;
-=======
->>>>>>> 18874d9712bd2a46658db1832229c3763bb7f30f
+    font-size: small;
 }
- 
-.questions {
-    font-family: var(--heading-font);
-    text-align: center;
-}
- 
+
 .answers {
     font-family: var(--text-font);
     align-items: flex-start;
 }
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 18874d9712bd2a46658db1832229c3763bb7f30f
 .answers-buttons {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 2vw;
+    gap: .5vh;
 }
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 18874d9712bd2a46658db1832229c3763bb7f30f
 .answers-buttons li {
     display: flex;
     border: var(--border-small) solid var(--light);
@@ -95,37 +82,20 @@ body {
     max-width: 50vw;
     margin-top: var(--small);
 }
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 18874d9712bd2a46658db1832229c3763bb7f30f
 .answers-buttons li:hover {
     background-color: var(--pink);
     color: var(--green);
 }
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 18874d9712bd2a46658db1832229c3763bb7f30f
 .correct {
     background-color: var(--green);
     color: var(light);
     border: var(--border-medium) solid var(--pink);
 }
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 18874d9712bd2a46658db1832229c3763bb7f30f
 .wrong {
     background-color: var(--red);
     color: var(--light);
     border: var(--border-medium) solid var(--pink);
-<<<<<<< HEAD
 }
-=======
-}
- 
->>>>>>> 18874d9712bd2a46658db1832229c3763bb7f30f
