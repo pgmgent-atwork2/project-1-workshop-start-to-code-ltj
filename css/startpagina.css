@@ -8,6 +8,7 @@
     --yellow: yellow;
     --orange: orange;
     --pink: rgb(235, 152, 166);
+    --purple: purple;
 
     --large: 3rem;
     --medium: 2rem;
@@ -145,4 +146,20 @@ heading h1 {
 
 .four {
     color: var(--pink);
+    padding-right: var(--small);
+}
+
+.five {
+    color: var(--light);
+    padding-right: var(--small);
+}
+
+.six {
+    color: var(--red);
+    padding-right: var(--small);
+}
+
+.seven {
+    color: var(--purple);
+    padding-right: var(--small);
 }
