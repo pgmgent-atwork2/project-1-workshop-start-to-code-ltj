@@ -127,3 +127,17 @@ footer {
     max-width: 45%;
     height: auto;
 }
+
+#jsondata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--medium);
+    min-height: 100vh; /* vult het scherm */
+}
+
+#jsondata img {
+    max-width: 45%;
+    height: auto;
+}
+
