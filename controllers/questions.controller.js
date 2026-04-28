@@ -1,5 +1,5 @@
 async function getAllQuestions() {
-    const result = await fetch("/data/data.json");
+    const result = await fetch("data/data.json");
     const data = await result.json();
     return data
 }
